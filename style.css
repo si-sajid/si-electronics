@@ -1,0 +1,151 @@
+body{
+    font-family: arial;
+}
+#header{
+    background:#e74c3c ;
+}
+.l{
+    color: #fff;
+}
+#my li:hover{
+    background: #c71703;
+    transform: scale(1.02);
+    transition: all 0.2s ;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+    display: block;
+}
+.section h2.section-head:after{
+    background:#e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#banner{
+    background: url(./img/bannner.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.banner-titel h1{
+    background: rgba(240, 243, 243, 0.6);
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+}
+.banner-titel p{
+    color:#fff;
+    background: #e74d3cbb;
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color:#e74c3c;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#testimonials{
+    color: #fff;
+    background: url(./img/back2.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+#testimonials p{
+    background: rgba(128, 128, 128, 0.753);
+}
+/*
+#testimonials::before{
+    background:rgba(104, 105, 112, 0.573);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}*/
+.testimonial img{
+    border-radius: 50%;
+}
+.card-pic{
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+}
+.product{
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.product:hover{
+    transform: scale(1.04);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.tap:hover{
+    background: #000;
+}
+.tap{
+    border-radius: 50px;
+}
+.card-body{
+    margin-top: -15px;
+}
+.list{
+ row-gap: 20px;
+}
+.icon{
+    padding-right:10px ;
+}
+#footer-sidebar{
+    color:#fff;
+    background: rgb(78, 68, 68) ;
+    padding: 20px 0;
+    
+}
+.footer-widget h4::after{
+     content: "";
+     background: #fff;
+     display: flex;
+     width:50px;
+     height: 2px;
+     margin: 5px 0;
+    
+     
+}
+#footer{
+    color: #fff;
+    background: rgb(31, 32, 34);
+    padding: 20px 0;
+
+}
+#social-icons{
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+#social-icons li i{
+    color: #fff;
+    font-size: 30px;
+}
+.footer-img{
+     width: 9rem;
+}
+/* 
+@media screen and (max-width:499px) {
+    .list{
+        height: 476px;
+    }
+} */
